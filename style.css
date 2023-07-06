@@ -37,11 +37,12 @@ header{
 #arrow{
     color: white;
     height: 25px;
-    background-color: #4a4a4a;
+    background-color: #4a4a4ab2;
     width: 40px;
     font-size: 16px;
     border-radius: 6px;
     border: none;
+    padding: 4px;
 }
 main{
     background-color: black;
@@ -52,10 +53,23 @@ main{
     overflow: auto;
     height: calc(100vh - 50px - 100px);
 }
-img{
+.block2{
+    display: flex;
+}
+.img{
     width: calc(95% / 7);
-    height: 180px;
-    padding: 3px 3px;
+    height: 190px;
+    background-image: url(./mountain.jpg);
+    background-size: cover;
+    margin: 4px 4px;
+    position: relative;
+}
+.name{
+    background-color: #4a4a4abb;
+    color: white;
+    padding: 4px 5px;
+    position: absolute;
+    bottom: 9px;
 }
 footer{
     height: 100px;
@@ -64,4 +78,28 @@ footer{
     position: fixed;
     z-index: 4;
     bottom: 0;
+}
+.block3{
+    height: 85px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block4{
+    height: 80px;
+    width: 100px;
+}
+.fa-microphone {
+    color: white;
+    font-size: 43px;
+    padding: 6px 10px;
+}
+.fa-chevron-up {
+    color: white;
+    font-size: 8px;
+}
+p{
+    color: white;
+    padding: 6px 8px;
 }
