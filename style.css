@@ -53,11 +53,9 @@ main{
     overflow: auto;
     height: calc(100vh - 50px - 100px);
 }
-.block2{
-    display: flex;
-}
 .img{
     width: calc(95% / 7);
+    float: left;
     height: 190px;
     background-image: url(./mountain.jpg);
     background-size: cover;
