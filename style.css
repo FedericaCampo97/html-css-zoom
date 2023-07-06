@@ -9,6 +9,10 @@ body{
     height: 100vh;
     background-color: black;
 }
+header{
+    position: relative;
+    height: 50px;
+}
 #firstblock{
     background-color: black;
     height: 50px;
@@ -43,6 +47,10 @@ main{
     background-color: black;
     width: 95%;
     margin: auto;
+}
+.blockimg{
+    overflow: auto;
+    height: calc(100vh - 50px - 100px);
 }
 img{
     width: calc(95% / 7);
